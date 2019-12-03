@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: poc
+
+endpoints:
+  refresh:
+    enabled: true
+    sensitive: false
