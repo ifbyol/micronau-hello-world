@@ -1,5 +1,6 @@
 name: api
-command: ["./gradlew", "run"]
+image: okteto/gradle:6.5
+command: cd /src && ./gradlew run
 forward:
   - 8080:8080
 sync:

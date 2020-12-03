@@ -11,12 +11,6 @@ import io.micronaut.runtime.context.scope.Refreshable
 @Refreshable
 class HelloWorldController {
 
-    @Value("\${consul.message}")
-    var consulMessage: String? = "Init consul message"
-
-    @Value("\${externalFile.message}")
-    var externalFileMessage: String? = "Init external message"
-
     @Get("/", produces = [MediaType.TEXT_PLAIN])
-    fun helloWorld(): String = "Consul message: $consulMessage\nExternal file message: $externalFileMessage"
+    fun helloWorld(): String = "Hello World!"
 }
