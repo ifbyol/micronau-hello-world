@@ -1,5 +1,5 @@
 name: api
-command: ["./gradlew", "start"]
+command: ["./gradlew", "run"]
 forward:
   - 8080:8080
 sync:

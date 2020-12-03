@@ -3,11 +3,3 @@ micronaut:
         name: poc
   config-client:
     enabled: true
-consul:
-  client:
-    registration:
-      enabled: true
-    config:
-      enabled: true
-      format: YAML
-    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
