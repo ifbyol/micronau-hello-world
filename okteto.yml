@@ -4,4 +4,4 @@ command: cd /src && ./gradlew run
 forward:
   - 8080:8080
 sync:
-  - ./poc:/src
+  - .:/src
