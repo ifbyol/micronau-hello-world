@@ -1,5 +1,0 @@
-micronaut:
-  application:
-        name: poc
-  config-client:
-    enabled: true
